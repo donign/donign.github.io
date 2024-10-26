@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Stories</title>
     <style>
+        body {}
+
         h1 {
             font-family: 'Courier New', Courier, monospace;
             font-size: 50px;
@@ -17,10 +19,7 @@
         h2 {
             font-family: 'Courier New', Courier, monospace;
             font-size: 32px;
-
             text-align: center;
-            margin-left: 2.5%;
-
         }
 
         ul {
@@ -28,37 +27,66 @@
             font-size: 16px;
             text-align: center;
         }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box-div {
+            border: 2px solid black;
+            max-width: 500px;
+            padding: 10px;
+            align-self: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 
 <body>
     <!--<h1>Testicles, and no shaft!<th1>-->
     <h1>My Stories</h1>
-    <h2>Clown Stories</h2>
-    <ul>
-        <il><a href="/stories/clown/1">Clown</a></il><br />
-        <il><a href="/stories/clowner/1">Clowner</a></il><br />
-        <il><a href="/stories/clownstar/1">Clownstar</a></il><br />
-        <il><a href="/stories/clowntown/1">Clown Town</a></il><br />
-    </ul>
-    <h2>Best Stories</h2>
-    <ul>
-        <il><a href="/stories/clownstar/1">Clownstar</a></il><br />
-        <il><a href="/stories/amateurwriter/first">"It" from Stephen King</a></il><br />
-        <il><a href="/stories/holy/comence">Clown Religious Texts</a></il><br />
-    </ul>
-    <h2><b>Worst Stories</b></h2>
-    <ul>
-        <il><a href="/stories/impossible/NO">How 2 kill 4 clown</a></il><br />
-        <il><a href="/stories/amateurwriter/first">"It" from Stephen King</a></il><br />
-        <il><a href="/stories/boring/0">Clown un-related story (not interesting)</a></il><br />
-        <il><a href="/stories/fuckyou/1">OVERRATALE</a></il><br />
-    </ul>
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <div class="container">
+        <div class="box-div">
+            <h2>Clown Stories</h2>
+            <ul>
+                <il><a href="/stories/clown/1">Clown</a></il><br /><br />
+                <il><a href="/stories/clowner/1">Clowner</a></il><br /><br />
+                <il><a href="/stories/clownstar/1">Clownstar</a></il><br /><br />
+                <il><a href="/stories/clowntown/1">Clown Town</a></il><br />
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="box-div">
+            <h2>Best Stories</h2>
+            <ul>
+                <il><a href="/stories/clownstar/1">Clownstar</a></il><br /><br />
+                <il><a href="/stories/amateurwriter/first">"It" from Stephen King</a></il><br /><br />
+                <il><a href="/stories/holy/comence">Clown Religious Texts</a></il><br />
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="box-div">
+            <h2><b>Worst Stories</b></h2>
+            <ul>
+                <il><a href="/stories/impossible/NO">How 2 kill 4 clown</a></il><br /><br />
+                <il><a href="/stories/amateurwriter/first">"It" from Stephen King</a></il><br /><br />
+                <il><a href="/stories/boring/0">Clown un-related story (not interesting)</a></il><br /><br />
+                <il><a href="/stories/fuckyou/1">OVERRATALE</a></il><br />
+            </ul>
+        </div>
+    </div>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     <em>Property of <a href="https://github.com/donign">donign</a>, if you don't laugh I will shank ye | Clown Joke
         :o)</em>
-        <br>
-        <em></em>
+    <br>
+    <em></em>
 </body>
 
 </html>
