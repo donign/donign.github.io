@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    text-align: center;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.box-div {
+    border: 2px solid black;
+    max-width: 500px;
+    padding: 10px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

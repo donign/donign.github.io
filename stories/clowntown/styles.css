@@ -1,7 +1,5 @@
-
-        .background {
-            text-align: center;
-            font-family: "Courier New", Courier, monospace;
+        body {
+            font-family: 'Courier New', Courier, monospace;
         }
 
         .border {
