@@ -1,56 +1,65 @@
-        body {
-            font-family: 'Courier New', Courier, monospace;
-        }
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 50px;
+}
 
-        .border {
-            border: 3px solid black;
-            background-color: lightgrey;
-            padding: 0px 140px;
-        }
+.border {
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  background-color: lightgray;
+  padding: 0px 140px;
+}
 
-        .box {
-            display: flex;
-            justify-content: center;
-        }
+.box {
+  display: flex;
+  justify-content: center;
+}
 
-        .title {
-            font-size: 30px;
-            color: black;
-            background-color: lightgray;
-            border: 3px solid black;
-            max-width: 810px;
-            width: 810px;
-            height: 80px;
-            padding: 10px;
-            align-self: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.title {
+  font-size: 30px;
+  color: black;
+  background-color: rgb(221, 221, 221);
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  max-width: 810px;
+  width: 810px;
+  height: 80px;
+  padding: 10px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-        .text {
-            background-color: lightgray;
-            border: 3px solid black;
-            max-width: 830px;
-            width: 830px;
-            align-self: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+.text {
+  background-color: rgb(221, 221, 221);
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  border-bottom: 3px solid black;
+  max-width: 830px;
+  width: 830px;
+}
 
-        p {
-            font-size: 14px;
-            text-align: center;
-            color: black;
-            font-family: "Courier New", Courier, monospace;
-        }
+p {
+  font-size: 14px;
+  max-width: 700px;
+  text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+}
 
-        h2 {
-            font-size: 20px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            max-width: 300px;
-            font-weight: bold;
-        }
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  padding: 0px 100px;
+}

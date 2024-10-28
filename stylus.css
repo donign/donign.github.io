@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   background-color: white;
   height: 100%;
   margin: 0;
@@ -9,7 +10,7 @@ body, html {
   min-height: 100vh;
 }
 .content {
-    flex: 1;
+  flex: 1;
 }
 h1 {
   font-family: "Courier New", Courier, monospace;

@@ -5,9 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Random value:", Math.random());
 
     if (Math.random() < probability) {
+        var box = document.getElementById('Box');
         body.style.backgroundImage = "url('images/test.gif')";
         body.style.color = "white";
         body.style.backgroundSize = "cover";
-        body.style.border = "white";
+        box.style.borderColor = 'white';
     }
 });
