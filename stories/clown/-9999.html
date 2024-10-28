@@ -1,40 +1,17 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>:o)</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <link rel="stylesheet" type="text/css" href="stylesheets/-style.css" />
+  </head>
 
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-            background-color: black;
-        }
-
-        .fullscreen-video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 1050px;
-            object-fit: cover;
-        }
-    </style>
-</head>
-
-<body>
-    <video class="fullscreen-video" autoplay loop controls>
-        <source src="blasphemy.mp4" type="video/mp4">
-    </video>
-</body>
-
+  <body>
+    <div class="video">
+      <video class="fullscreen-video" autoplay loop controls>
+        <source src="blasphemy.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </body>
 </html>

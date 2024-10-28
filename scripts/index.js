@@ -8,5 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
         body.style.backgroundImage = "url('images/test.gif')";
         body.style.color = "white";
         body.style.backgroundSize = "cover";
+        body.style.border = "white";
     }
 });
