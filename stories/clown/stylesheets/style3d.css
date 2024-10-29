@@ -62,3 +62,19 @@ body {
     font-weight: bold;
     text-decoration: double;
   }
+
+  a {
+    color: rgb(0, 149, 255);
+  }
+  
+  a:visited {
+    color: #ff00ea;
+  }
+  
+  a:hover {
+    color: #00d0ff;
+  }
+  
+  a:active {
+    color: #ff0000;
+  }
