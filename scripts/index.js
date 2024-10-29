@@ -5,10 +5,15 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Random value:", Math.random());
 
     if (Math.random() < probability) {
-        var box = document.getElementById('Box');
+        var boxes = document.querySelectorAll('.box-div');
+        boxes.forEach(function (box) {
+            box.style.borderColor = 'white';
+        });
+        var foot = document.getElementById('Toe');
         body.style.backgroundImage = "url('images/test.gif')";
         body.style.color = "white";
         body.style.backgroundSize = "cover";
-        box.style.borderColor = 'white';
+        foot.style.color = "black";
+
     }
 });

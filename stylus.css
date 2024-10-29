@@ -4,14 +4,33 @@ html {
   height: 100%;
   margin: 0;
 }
+
+a {
+  color: rgb(0, 149, 255);
+}
+
+a:visited {
+  color: #ff00ea;
+}
+
+a:hover {
+  color: #00d0ff;
+}
+
+a:active {
+  color: #ff0000;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
+
 .content {
   flex: 1;
 }
+
 h1 {
   font-family: "Courier New", Courier, monospace;
   font-size: 50px;
@@ -46,6 +65,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
 .toe {
   text-align: left;
   margin-bottom: 0;
