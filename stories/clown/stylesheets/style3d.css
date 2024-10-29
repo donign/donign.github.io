@@ -37,7 +37,7 @@ body {
     color: white;
     display: flex;
     justify-content: center;
-    max-width: 400px;
+    max-width: 600px;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
       1px 1px 0 black;
   }
@@ -50,4 +50,15 @@ body {
     justify-content: center;
     max-width: 1000px;
     font-weight: bold;
+  }
+
+  h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    font-weight: bold;
+    text-decoration: double;
   }
