@@ -65,12 +65,29 @@ ul {
 }
 
 @keyframes color {
-  0% { color: red; }
-  20% { color: yellow; }
-  40% { color: green; }
-  60% { color: blue; }
-  80% { color: purple; }
-  100% { color: red; }
+  0% {
+    color: red;
+  }
+
+  20% {
+    color: yellow;
+  }
+
+  40% {
+    color: green;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  80% {
+    color: purple;
+  }
+
+  100% {
+    color: red;
+  }
 }
 
 .animate {
@@ -108,6 +125,8 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
+/*Load this BITCH */
 
 
 .toe {
