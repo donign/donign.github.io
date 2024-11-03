@@ -1,7 +1,52 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  .border {
+    box-sizing: border-box;
+    padding: 0px 60px !important;
+    max-width: calc(100% - 120px);
+  }
+
+  
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font-size: 1.7em;
+  }
+
+  .border {
+    box-sizing: border-box;
+    padding: 0px 20px !important;
+    max-width: calc(100% - 40px);
+  }
+}
+
 html,
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -20,6 +65,10 @@ body::before {
   border: 4px solid black;
   padding: 0px 180px;
   margin: 0px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  aspect-ratio: 4 / 3;
 }
 
 .darkness {
