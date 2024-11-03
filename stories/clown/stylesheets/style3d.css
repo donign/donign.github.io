@@ -1,80 +1,96 @@
+html,
 body {
-    background-color: black;
-  }
-  
-  .border {
-    background-color: lightgrey;
-    border: 4px solid black;
-    padding: 0px 180px;
-    margin: 0px;
-  }
-  
-  .darkness {
-    text-align: center;
-    background: linear-gradient(to bottom, blue, #000000);
-    height: 1300px;
-    width: 100%;
-    font-family: "Courier New", Courier, monospace;
-  }
-  
-  .box {
-    display: flex;
-    justify-content: center;
-  }
-  
-  p {
-    font-size: 16px;
-    text-align: center;
-    color: white;
-    font-family: "Courier New", Courier, monospace;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-      1px 1px 0 black;
-  }
-  
-  h1 {
-    font-size: 50px;
-    text-align: center;
-    color: white;
-    display: flex;
-    justify-content: center;
-    max-width: 800px;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
-      1px 1px 0 black;
-  }
-  
-  h2 {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    max-width: 1000px;
-    font-weight: bold;
-  }
+  margin: 0;
+  height: 100%;
+}
 
-  h3 {
-    color: white;
-    font-size: 25px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    max-width: 1000px;
-    font-weight: bold;
-    text-decoration: double;
-  }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, blue 20%, #00008B 30%, #00004B 49%, black 80%);
+  z-index: -1;
+}
 
-  a {
-    color: rgb(0, 149, 255);
-  }
-  
-  a:visited {
-    color: #ff00ea;
-  }
-  
-  a:hover {
-    color: #00d0ff;
-  }
-  
-  a:active {
-    color: #ff0000;
-  }
+.border {
+  background-color: lightgrey;
+  border: 4px solid black;
+  padding: 0px 180px;
+  margin: 0px;
+}
+
+.darkness {
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1;
+  text-align: center;
+  height: 1300px;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  font-weight: bold;
+  text-decoration: double;
+}
+
+a {
+  color: rgb(0, 149, 255);
+}
+
+a:visited {
+  color: #ff00ea;
+}
+
+a:hover {
+  color: #00d0ff;
+}
+
+a:active {
+  color: #ff0000;
+}
