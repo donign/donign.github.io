@@ -11,7 +11,7 @@
 
 body {
   display: flex;
-  background-color: black;
+    background: linear-gradient(to bottom, lightgrey, #000000);
 }
 
 .border {
@@ -27,7 +27,6 @@ body {
 
 .darkness {
   text-align: center;
-  background: linear-gradient(to bottom, lightgrey, #000000);
   height: 1300px;
   width: 100%;
   font-family: "Courier New", Courier, monospace;
