@@ -1,7 +1,4 @@
 @media (max-width: 600px) {
-  body {
-    font-size: 18px;
-  }
 
   h1 {
     font-size: 2.5em;
@@ -93,7 +90,7 @@ body::before {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   max-width: 900px;
   color: white;
