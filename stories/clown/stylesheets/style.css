@@ -13,7 +13,7 @@
     padding: 0px 60px !important;
   }
 
-  
+
 }
 
 @media (max-width: 400px) {
@@ -32,7 +32,6 @@
   .border {
     box-sizing: border-box;
     padding: 0px 20px !important;
-    max-width: calc(100% - 40px);
   }
 }
 
@@ -92,6 +91,9 @@ body::before {
 p {
   font-size: 18px;
   text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 900px;
   max-width: 900px;
   color: white;
   font-family: "Courier New", Courier, monospace;

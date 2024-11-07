@@ -66,6 +66,12 @@ body::before {
   aspect-ratio: 4 / 3;
 }
 
+.border img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .darkness {
   min-height: 100vh;
   padding: 20px;
@@ -85,6 +91,10 @@ body::before {
 p {
   font-size: 18px;
   text-align: center;
+  white-space: normal;
+  word-wrap: break-word;
+  width: 900px;
+  max-width: 900px;
   color: white;
   font-family: "Courier New", Courier, monospace;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
