@@ -1,3 +1,63 @@
+@media (max-width: 1200px) {
+
+  h1 {
+    font-size: 80px !important;
+  }
+
+  h2 {
+    font-size: 40px !important;
+  }
+
+  p {
+    font-size: 25px !important;
+  }
+
+  .border {
+    box-sizing: border-box;
+    padding: 0px 120px !important;
+  }
+
+
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  p {
+    font-size: 20px !important;
+  }
+
+  .border {
+    box-sizing: border-box;
+    padding: 0px 80px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 50px !important;
+  }
+
+  h2 {
+    font-size: 16px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
+  .border {
+    box-sizing: border-box;
+    padding: 0px 60px !important;
+  }
+}
+
 body {
   font-family: "Courier New", Courier, monospace;
   margin-top: 50px;
