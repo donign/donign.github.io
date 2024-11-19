@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loading...</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../../images/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../../images/favicon/favicon-16x16.png"
+    />
     <link rel="manifest" href="../../images/favicon/manifest.json" />
-    <style></style>
-</head>
-<body>
-    <center>
-        <font family="" size="5" color="red">Page in construction : o )</font>
-    </center>
-</body>
-
+    <style>
+      body,
+      html {
+        color: red;
+        text-shadow: -1px -1px 0 white, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px white;
+        font-size: 100px;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e9e9e9;
+        font-family: Arial, sans-serif;
+      }
+      .spin {
+        animation: spin 2s infinite;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+      <div class="spin">Page in construction : o)</div>
+  </body>
 </html>
