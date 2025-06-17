@@ -1,3 +1,3 @@
-Webpage made by an idiot.
+Webpage made by idiots.
 
 https://donign.github.io/
