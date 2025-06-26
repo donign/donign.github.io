@@ -1,80 +1,47 @@
-@media (max-width: 1200px) {
+@media (max-width: 870px) {
 
   h1 {
-    font-size: 80px !important;
+    font-size: 6vw !important;
   }
 
   h2 {
-    font-size: 40px !important;
+    font-size: 6vw !important;
   }
 
   p {
-    font-size: 25px !important;
+    font-size: 2vw !important;
   }
 
   .border {
-    box-sizing: border-box;
-    padding: 0px 120px !important;
-  }
-
+  max-width: 100% !important;
+  width: auto !important;
+}
 
 }
 
-@media (max-width: 800px) {
-  h1 {
-    font-size: 50px !important;
-  }
-
-  h2 {
-    font-size: 30px !important;
-  }
-
-  p {
-    font-size: 20px !important;
-  }
-
-  .border {
-    box-sizing: border-box;
-    padding: 0px 80px !important;
-  }
-}
-
-@media (max-width: 400px) {
-  h1 {
-    font-size: 50px !important;
-  }
-
-  h2 {
-    font-size: 16px !important;
-  }
-
-  p {
-    font-size: 14px !important;
-  }
-
-  .border {
-    box-sizing: border-box;
-    padding: 0px 60px !important;
-  }
-}
-
+html,
 body {
   font-family: "Courier New", Courier, monospace;
-  margin-top: 50px;
-  background-color: black;
+  margin-top: 25px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-weight: bold;
 }
 
-.border {
-  border-right: 3px solid black;
-  border-left: 3px solid black;
-  background-color: lightgray;
-  padding: 0px 140px;
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, white 20%, black 60%);
+  z-index: -1;
 }
 
-.box {
-  display: flex;
-  justify-content: center;
-}
 
 .title {
   font-size: 30px;
@@ -101,6 +68,19 @@ body {
   max-width: 830px;
   width: 830px;
 }
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.border {
+  background-color: lightgrey;
+  padding: 0 5.6rem;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+}
+
 
 p {
   font-size: 14px;
